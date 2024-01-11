@@ -6,7 +6,7 @@ from spacy.matcher import Matcher
 def extraire_nom(texte_cv):
     # Charger le modèle pré-entraîné
     #nlp = spacy.load('fr_core_news_lg')
-    nlp = load('fr_core_news_sm')
+    nlp = load('en_core_web_sm')
 
     # Initialiser le Matcher avec un vocabulaire
     matcher = Matcher(nlp.vocab)
